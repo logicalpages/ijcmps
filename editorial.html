@@ -24,6 +24,8 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
 </head>
 
 <body>
@@ -35,27 +37,11 @@
         <h1 class="logo"><a href="index.html">IJCMPS</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-        <nav class="nav-menu d-none d-lg-block">
-            <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="authors.html">About</a></li>
-                <li><a href="editorial.html">Editorial/Advisory Board</a></li>
-
-                <li class="dropdown show">
-                    <a class="link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Archive
-                    </a>
-                  
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">                 
-                    <a class="dropdown-item" href="issue1.html">Vol 1 Issue 1</a>
-                    <a class="dropdown-item" href="issue2.html">Vol 1 Issue 2</a>
-                    </div>
-                </li>
-                
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav><!-- .nav-menu -->
+        <!--Navigation bar-->
+        <div w3-include-html="nav.html"></div>
+        <script>
+            w3.includeHTML();
+        </script>
 
         <div class="header-social-links">
             <a href="#" class="twitter"><i class="icofont-twitter"></i></a>

@@ -25,6 +25,9 @@
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+   
+   
 </head>
 
 <body>
@@ -36,6 +39,7 @@
             <h1 class="logo"><a href="index.html">IJCMPS</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <!-- .nav-menu -->
             <!--Navigation bar-->
             <div w3-include-html="nav.html"></div>
             <script>
@@ -58,34 +62,34 @@
             var myObject = {
                 "papers": [
                     {
-                        "title": "Virtual Reality : Agame-changing Method for the Language in Computer Sciences",
-                        "authors": "Atul Kumar, Ramnarayan Maurya",
-                        "paperid": "ijcmps-4-1-1"
+                        "title": "Role of Cloud Computing in Emerging Technology",
+                        "authors":"Sumit Varshney, Gaurav Malik, Kashish  Gupta, N.K Sharma",
+                        "paperid": "ijcmps-4-2-1"
                     },
                     {
-                        "title": "Architecture of Intelligent Unmanned Retail Shop Using Internet of Things and AI",
-                        "authors": "Udit Saxena, Ayushi Tripathi, Anam Khan, Naveen Kumar Sharma",
-                        "paperid": "ijcmps-4-1-2"
+                        "title": "Empact of Computer-Generated Chips in Human Brain",
+                        "authors": "Musharraf Hassan, Mirza Fozail Ahmad Baig, Md. Salman, S.D  Singh",
+                        "paperid": "ijcmps-4-2-2"
                     },
                     {
-                        "title": "Impact of Artificial Intelligence on Social Environments",
-                        "authors": "Asif, Md Nadim Khalid, Sandhya Rani Samal, N.K Sharma",
-                        "paperid": "ijcmps-4-1-3"
+                        "title": "Introduction of SOA and IoT in new Emerging Trends Technology",
+                        "authors": "Satendra Kumar Dwivedi, Kislay Kumar, Guddu, N.K SHARMA",
+                        "paperid": "ijcmps-4-2-3"
                     },
                     {
-                        "title": "Why the High Attrition Rate for Computer Science Students: Some Thoughts and Observations",
-                        "authors": "Deepak Parashar, Dinesh kumar, Tarun kumar, S.D Singh",
-                        "paperid": "ijcmps-4-1-4"
+                        "title": "Impact of Internet and Iot on Human Life",
+                        "authors": "Saurav Kumar, Rohit Kumar, Aradhana kumari, Fazlullah Ansari, S.D. Singh",
+                        "paperid": "ijcmps-4-2-4"
                     },
                     {
-                        "title": "Study on Metaverse and Its Comprehensive Effect on Humans",
-                        "authors": "Ishu Pathania, Sanjesh Pandey, Gaurav Singh, Roshan Ray, S.D Singh ",
-                        "paperid": "ijcmps-4-1-5"
+                        "title": "Role of Iot in Smart Agriculture And Harvesting ",
+                        "authors": "Nishi Singh, Sudhanshu Bisht, Anuj Mishra, Naveen Kumar Sharma",
+                        "paperid": "ijcmps-4-2-5"
                     },
                     {
-                        "title": "Cloud Computing: Issues and It’s Challenges",
-                        "authors": "Kishan Kashyap, Akash Yadav, Abhishek Yadav, N.K Sharma",
-                        "paperid": "ijcmps-4-1-6"
+                        "title": "Smile Connect Web Development",
+                        "authors": "Harish Kumar Pal, Kuldeep, Kajal Gupta, Manshi Chauhan, Rajesh Kumar",
+                        "paperid": "ijcmps-4-2-6"
                     },
 
                 ]
@@ -96,7 +100,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2> Volume 4 (July 2023) : Issue 1</h2>
+                    <h2> Volume 4 (December 2023) : Issue 2</h2>
                     <div align="left">
                         <ol id="issues">
                             <li w3-repeat="papers">
@@ -149,7 +153,11 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
     <script>
         w3.displayObject("issues", myObject);
     </script>
