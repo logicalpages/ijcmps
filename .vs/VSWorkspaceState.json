@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< Updated upstream
     "\\assets\\js",
     "\\Files"
   ],
+=======
+    "\\Files"
+  ],
+  "SelectedNode": "\\issue6-1.html",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }
