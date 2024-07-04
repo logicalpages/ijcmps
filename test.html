@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Admission Portal of Gautam Buddha University (GBU) for B.A., B.Sc., M.A., M.Sc., B.A. LLB, B.Tech., M.Tech. etc."/>
+    <title>
+        Gautam Buddha University
+     </title>
+
+ <link rel="stylesheet" href="https://localhost:44359/Content/Site.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="topbar gb-primary border-bottom">
+
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item"><a href="https://gbu.ac.in" class="nav-link link-light px-2 active" aria-current="page">GBU Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-light px-2">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light px-2">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light px-2">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light px-2">About</a></li>
+            </ul>
+
+           
+        </div>
+    </nav>
+   
+    <footer class="mt-auto"><hr>
+            <p>&copy; @DateTime.Now.Year - Gautam Buddha University. Maintained by Admission Office. </p>
+        </footer>
+    </div>
+       
+    @Scripts.Render("~/bundles/jquery")
+    @*@Scripts.Render("~/bundles/bootstrap")*@
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
